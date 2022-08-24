@@ -1,0 +1,82 @@
+body{
+    margin: 0px;
+    font-family:'Courier New', Courier, monospace;
+    width:1500px;
+}
+.titulo{
+    font-size:50px;
+    margin:0;
+}
+.header-fix{
+    position:fixed;
+    margin:0;
+    background-color:rgb(53, 60, 202);
+    color:black;
+    width:1500px;
+    border:0;
+}
+.menu{
+    font-size:30px;
+    flex-direction: row;
+    text-align:right;
+}
+.link-menu{
+    text-decoration:none;
+    font-weight:bold;
+    color:black;
+}
+.principal{
+    text-align:justify;
+    margin:0;
+}
+.subtitulo-principal{
+    padding:150px 50px 0px 100px;
+    line-height:20px;
+}
+.subtitulo-nome{
+    padding:0px 50px 0px 100px;
+    line-height:20px;
+}
+.posicao-texto-principal{
+    text-align:left;
+    padding:0px 1000px 20px 100px;
+    line-height:20px;
+}
+.botao-posicao{
+    padding:15px 1000px 20px 150px;
+}
+.botao{
+    padding: 30px;
+    font-size: 25px;
+    border: 0;
+    cursor: pointer;
+    transition: all ease 1000ms;
+    background-color:mintcream;
+    border:1px black solid;
+    border-radius:20px
+}
+.botao:hover{
+    background-color:black;
+    color:white;
+}
+.dropdown{
+    position:relative;
+}
+.dropdown-body{
+    display: none;
+    position:absolute;
+    border:aliceblue 1px solid;
+    padding:5px;
+
+}
+.dropdown:hover .dropdown-body{
+    display:block;
+}
+@media screen and (max-width:762px){
+    main{
+        flex-direction:column;
+    }
+}
+span{
+    color:red;
+}
